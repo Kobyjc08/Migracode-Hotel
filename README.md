@@ -34,3 +34,18 @@ Revisit the webpage you created in last week's homework assignment. Add a sideba
   - Explore how we name our classes and elements
   - Create a new Branch called bootstrap-site, and use a framework to implement the same site and compare
   (Learn about Branching here - https://guides.github.com/introduction/flow/)
+
+<article class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.kasandbox.org/programming-images/landscapes/mountain_matterhorn.png" class="card-img-top" alt="Mountains">
+                <div class="card-body">
+                    <h5 class="card-title">Mountains</h5>
+                    <p class="card-text">Colombia is plenty of big mountains because the Andins crosses in 3 parts the country,we have places very famous to do trekking and even climb in the snow all the year, our montaners counts with anything you may need to make you fell
+                        like in home.
+                        <strong>Los Nevados National Park</strong> is located in the coffee region of the central Andes of Colombia. It is known for its snowy volcanoes, glaciers, lakes and forests. The active volcano <em>Nevado del Ruiz</em> is in the
+                        north. Further south is the Emerald Green Lake, the trout-filled Otun Lake and the Tolima Snowy with its snow-capped summit. The park houses hummingbirds, eagles, parrots and condors. It has high wax palms and frailejones. Here
+                        you can enjoy the best adventures where you can practice sports such as hiking, climbing or even night riding ... A whole show.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </article>

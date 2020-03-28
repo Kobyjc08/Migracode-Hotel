@@ -6,11 +6,20 @@
             justify-content: space-between;
         }
         
-        .sidebar {
+        .nav-link {
+            color: gray;
+        }
+        
+        .main {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             text-align: justify;
+            columns: 2;
+        }
+        
+        .container {
+            columns: auto;
         }
         
         .carousel {
@@ -35,9 +44,8 @@
         
         .immage {
             display: flexbox;
-            width: 100%;
-            height: 150px;
-            justify-items: center;
+            width: 400px;
+            justify-content: center;
         }
         
         @media screen and (max-width:768px) {

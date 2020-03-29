@@ -6,25 +6,66 @@
             justify-content: space-between;
         }
         
+        .topbar {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+        
+        .card-img-top {
+            width: 50;
+            height: 40;
+        }
+        
+        .topbar-link {
+            color: gray;
+        }
+        
+        .Brandlogo {
+            color: gray;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        
         .nav-link {
             color: gray;
         }
         
-        .main {
+        .card {
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            text-align: justify;
-            columns: 2;
+            justify-content: center;
+            margin-top: 3rem;
         }
         
-        .container {
-            columns: auto;
+        .first-row {
+            background-color: lightgray;
+        }
+        
+        .third-row {
+            background-color: lightgray;
+        }
+        
+        .cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: justify;
+            align-items: center;
+            padding: 40px;
+        }
+        
+        form {
+            display: flex;
+            padding: 10px;
+            background-color: gray;
+            justify-content: space-around;
+            flex: 1;
+            color: white;
         }
         
         .carousel {
             display: flex;
-            height: 400px;
+            max-height: 450px;
         }
         
         .site-header__nav {
@@ -39,12 +80,17 @@
             justify-content: space-around;
             text-align: center;
             font-size: 15px;
-            padding: 5px;
+            padding: 30px;
+            background-color: lightgray;
+        }
+        
+        .card-img-top {
+            height: 200px;
         }
         
         .immage {
             display: flexbox;
-            width: 400px;
+            width: 380px;
             justify-content: center;
         }
         

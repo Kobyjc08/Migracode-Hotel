@@ -74,6 +74,12 @@
             justify-content: space-evenly;
         }
         
+        .payment-form {
+            display: flex;
+            padding: 5rem;
+            justify-items: space-between;
+        }
+        
         footer {
             display: flex;
             flex-direction: row;

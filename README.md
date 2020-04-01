@@ -48,4 +48,4 @@ Revisit the webpage you created in last week's homework assignment. Add a sideba
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-        </article>
+        </article># Migracode-Hotel

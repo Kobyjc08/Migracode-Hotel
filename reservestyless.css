@@ -1,0 +1,120 @@
+.site-header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card-img-top {
+    width: 50;
+    height: 40;
+}
+
+.topbar-link {
+    color: gray;
+}
+
+.Brandlogo {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.first-row {
+    background-color: lightgray;
+}
+
+.third-row {
+    background-color: lightgray;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    align-items: center;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+    background-color: gray;
+    justify-content: space-around;
+    flex: 1;
+    color: white;
+}
+
+.carousel {
+    display: flex;
+    max-height: 450px;
+}
+
+.site-header__nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.payment-form {
+    display: flex;
+    padding: 5rem;
+    justify-items: space-between;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.immage {
+    display: flexbox;
+    width: 380px;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .site-header__nav {
+        flex-direction: column;
+        justify-items: flex-end;
+        width: 100%;
+    }
+    .immage {
+        max-width: 350px;
+    }
+    .carrusel {
+        width: fluid;
+    }
+}

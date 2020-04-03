@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Migracode-Hotel</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="HomeStyles.css">
 </head>
 
-<body>
+<body class="container">
     <div class="site-wrapper">
         <header role="banner" class="site-header">
             <h2 class="Brandlogo">Migracode Hotel</h2>
@@ -68,34 +68,36 @@
         </a>
     </div>
 
-
     <div>
-        <div class="Search-form">
+        <div class="Search_form">
             <form method="GET" id="search" class="Search" action="reserve.html">
                 <fieldset>
                     <legend>Search</legend>
                     <label class="destination"> City/Hotel name
-        <input type="text" name="city">
+        <input type="text" class="form-control" name="city">
         </label>
                     <label> Check in
-            <input type="date" name="Checkin">
+            <input type="date" class="form-control" name="Checkin">
           </label>
 
                     <label> Check out
-          <input type="date" name="Checkout">
+          <input type="date" class="form-control" name="Checkout">
         </label>
-                    <label>
-                <select name="Room">
+                    <label>Select Room
+                <select name="Room" class="form-control">
                     <option>Room Single</option>
                     <option>Room Double</option>
                     <option>Room Familiar</option>
                     <option>Room Multiple</option>
                 </select>
         </label>
-                    <button type="submit">Search</button>
+                    <button type="submit" class="btn btn-light">Book Now</button>
                 </fieldset>
             </form>
         </div>
+
+
+
         <main>
 
             <div class="card-deck">
@@ -115,6 +117,8 @@
                         <a href="#" class="book-link" style="color: gray;font-size: x-large; text-underline-position: below;align-self: flex-end;">Book now</a>
                     </div>
                 </div>
+            </div>
+            <div class="card-deck">
                 <div class="card">
                     <img src="https://m.fourseasons.com/content/dam/fourseasons/images/web/BOS/BOS_790_aspect16x9.jpg/jcr:content/renditions/mobile.phone.500x500x0.6" class="card-img-top" alt="Offer">
                     <div class="card-body">
@@ -136,51 +140,8 @@
 
 
 
-            <div class="cards first-row">
-
-                <div class="card h-100" style="width: 300px;">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnqaKsBwBr9afNpAq-HSRZSFfpej1lhseKlhKEZG13c5GGhjsa" class="card-img-top" alt="Room1">
-                    <div class="card-body">
-                        <h3 class="Name-cards">Rooms</h3>
-                        <p class="card-text">Find your own space on the upper floors. The suites at Hotel Arts each have their own style and personality, but they all share the comfort and exclusive service of a 5-star hotel.</p>
-                        <a href="#" class="book-link" style="color: gray;font-size: x-large; text-underline-position: below;">Book now</a>
-                    </div>
-                </div>
 
 
-
-                <div class="card h-100" style="width: 300px;">
-                    <img src="https://img.grouponcdn.com/seocms/aJud4ZM9zteeTszZCUSz/gV-1500x1000/v1/c600x390.jpg" class="card-img-top" alt="Restaurant">
-                    <div class="card-body">
-                        <h3 class="Name-cards">Restaurant</h3>
-                        <p class="card-text">Find your own space on the upper floors. The suites at Hotel Arts each have their own style and personality, but they all share the comfort and exclusive service of a 5-star hotel.</p>
-                        <a href="#" class="book-link" style="color: gray;font-size: x-large; text-underline-position: below;">Book now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cards second-row">
-
-                <div class="card h-100" style="width: 300px;">
-                    <img src="https://m.fourseasons.com/content/dam/fourseasons/images/web/BOS/BOS_790_aspect16x9.jpg/jcr:content/renditions/mobile.phone.500x500x0.6" class="card-img-top" alt="Offers">
-                    <div class="card-body">
-                        <h3 class="Name-cards">Offers</h3>
-                        <p class="card-text">Find your own space on the upper floors. The suites at Hotel Arts each have their own style and personality, but they all share the comfort and exclusive service of a 5-star hotel.</p>
-                        <a href="#" class="book-link" style="color: gray;font-size: x-large; text-underline-position: below;">Book now</a>
-                    </div>
-                </div>
-
-
-
-                <div class="card h-100" style="width: 300px;">
-                    <img src="https://i.pinimg.com/originals/d7/a4/00/d7a400d4ba4b8471a2d21f1aaebec6c5.jpg" class="card-img-top" alt="ConfRoom">
-                    <div class="card-body">
-                        <h3 class="Name-cards">Conference Rooms</h3>
-                        <p class="card-text">Find your own space on the upper floors. The suites at Hotel Arts each have their own style and personality, but they all share the comfort and exclusive service of a 5-star hotel.</p>
-                        <a href="#" class="book-link" style="color: gray;font-size: x-large; text-underline-position: below;">Book now</a>
-                    </div>
-                </div>
-            </div>
 
         </main>
 

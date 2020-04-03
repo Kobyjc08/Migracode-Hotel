@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Migracode-Hotel</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reservestyless.css">
 </head>
 
-<body>
+<body class="container">
     <div class="site-wrapper">
         <header role="banner" class="site-header">
             <h2 class="Brandlogo">Migracode Hotel</h2>
@@ -52,24 +52,24 @@
                 <fieldset>
                     <legend>Search</legend>
                     <label class="destination"> City/Hotel name
-        <input type="text" name="city">
+        <input type="text" class="form-control" name="city">
         </label>
                     <label> Check in
-            <input type="date" name="Checkin">
+            <input type="date" class="form-control" name="Checkin">
           </label>
 
                     <label> Check out
-          <input type="date" name="Checkout">
+          <input type="date" class="form-control" name="Checkout">
         </label>
-                    <label>
-                <select name="Room">
+                    <label>Select Room
+                <select name="Room" class="form-control">
                     <option>Room Single</option>
                     <option>Room Double</option>
                     <option>Room Familiar</option>
                     <option>Room Multiple</option>
                 </select>
         </label>
-                    <button type="submit">Search</button>
+                    <button type="submit" class="btn btn-light">Book Now</button>
                 </fieldset>
             </form>
         </div>

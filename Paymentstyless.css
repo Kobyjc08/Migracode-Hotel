@@ -1,0 +1,59 @@
+.site-header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card-img-top {
+    width: 50;
+    height: 40;
+}
+
+.topbar-link {
+    color: gray;
+}
+
+.Brandlogo {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.Legend_checkout {
+    background: lightskyblue;
+    text-align: center;
+}
+
+form {
+    background-color: lightgrey;
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+    background-color: lightgray;
+    margin-top: 40px;
+}
